@@ -1,0 +1,82 @@
+<?php 
+require_once('auth_cas.php'); 
+?>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CMSC 828T: Submit</title>
+  <link href="resources/css/bootstrap.min.css?<?php echo rand(1,7); ?>" rel="stylesheet"/>
+  <link href="resources/css/main.css?<?php echo rand(1,7); ?>" rel="stylesheet"/>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-8 body-panel">
+        <div class="text-center">
+          <h3>Submission Details</h3>
+          <hr>
+          <div class="table-responsive">
+            <table class="table table-striped table-bordered submission-table">
+              <tr class="warning">
+                <th>Submission ID</th>
+                <th>Submission Timestamp</th>
+                <th>Project Name</th>
+                <th>Submission Graded</th>
+                <th>Submission Score</th>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-4 control-panel">
+        <div class="text-center">
+          <h3>CMSC828T Submission Portal</h3>
+          <h4 id="welcome_msg">Welcome, @<?php echo $username ?> </h4>
+          <input type="hidden" id="username_hidden" name="<?php echo $username ?>"/>
+          <div id="submit_control" class="btn-group" role="group">
+            <button type="button" class="btn btn-default">Submissions</button>
+            <button type="button" class="btn btn-default">Leaderboard</button>
+            <button type="button" class="btn btn-danger"><a class="logout" href="?logout=">Logout</a></button>
+          </div>
+          <div class="spacer"></div>
+          <div id="upload_alert" class="alert alert-success" role="alert"></div>
+          <div class="spacer"></div>
+          <form id="submission_form">
+            <div class="input-group">
+              <input type="file" id="upload_proj" class="btn btn-warning" accept="application/zip, application/octet-stream" />
+              <div class="input-group-btn">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><div id="selected_proj">Project Name</div></button>
+                <ul id="project_select" class="dropdown-menu dropdown-menu-right">
+                  <li><a href="#">P1Ph1</a></li>
+                  <li><a href="#">P1Ph2</a></li>
+                  <li><a href="#">P1Ph3</a></li>
+                  <li><a href="#">HW1</a></li>
+                  <li><a href="#">P2Ph1</a></li>
+                </ul>
+                <button type="submit" class="btn btn-primary" id="submit_proj_btn">Upload</button>
+              </div>
+            </div>
+          </form>
+          <hr>
+          <h3> Important Messages </h3>
+          <div id="message_alert" class="alert alert-warning" role="alert">
+            Only 5 submissions per user will be allowed.<br>
+            Click on each submission to see grading comments.
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+            <h3 class="panel-title">Submission Comments</h3>
+            </div>
+            <div id="submission_comments" class="panel-body">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="resources/js/jquery.min.js?<?php echo rand(1,7); ?>"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+  <script type="text/javascript" src="resources/js/main.js?<?php echo rand(1,7); ?>"></script>
+</body>
+</html>

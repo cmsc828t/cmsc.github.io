@@ -1,0 +1,162 @@
+Evaluating: kganguly_P1Ph1_code
+Evaluating: yhsueh_P1Ph1_code
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 136)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 136)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 136)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 136)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 136)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 136)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 136)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 136)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 136)
+Evaluating: ashgo95_P1Ph1_code
+Evaluating: esolomo1_P1Ph1_code
+Evaluating: conter_P1Ph1_code
+Evaluating: jlee1266_P1Ph1_code
+Warning: The value of local variables may have been changed to match the globals.  Future versions of MATLAB will require that you declare a variable to be global before you use that variable.
+> In load_map (line 26)
+Warning: The value of local variables may have been changed to match the globals.  Future versions of MATLAB will require that you declare a variable to be global before you use that variable.
+> In load_map (line 26)
+opened load_map.m
+Warning: The value of local variables may have been changed to match the globals.  Future versions of MATLAB will require that you declare a variable to be global before you use that variable.
+> In load_map (line 26)
+Warning: The value of local variables may have been changed to match the globals.  Future versions of MATLAB will require that you declare a variable to be global before you use that variable.
+> In load_map (line 26)
+opened load_map.m
+Warning: The value of local variables may have been changed to match the globals.  Future versions of MATLAB will require that you declare a variable to be global before you use that variable.
+> In load_map (line 26)
+Warning: The value of local variables may have been changed to match the globals.  Future versions of MATLAB will require that you declare a variable to be global before you use that variable.
+> In load_map (line 26)
+opened load_map.m
+Warning: The value of local variables may have been changed to match the globals.  Future versions of MATLAB will require that you declare a variable to be global before you use that variable.
+> In load_map (line 26)
+Warning: The value of local variables may have been changed to match the globals.  Future versions of MATLAB will require that you declare a variable to be global before you use that variable.
+> In load_map (line 26)
+opened load_map.m
+Evaluating: zzeng_P1Ph1_code
+Evaluating: vnarayan_P1Ph1_code
+Evaluating: dahe_P1Ph1_code
+Evaluating: kelgin_P1Ph1_code
+Evaluating: rbiyani_P1Ph1_code
+Evaluating: akgul_P1Ph1_code
+Evaluating: mavera3_P1Ph1_code
+Evaluating: vaibhavb_P1Ph1_code
+Evaluating: mmaestre_P1Ph1_code
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Warning: Integer operands are required for colon operator when used as index
+> In load_map (line 74)
+Evaluating: krusinga_P1Ph1_code
+Evaluating: crao9422_P1Ph1_code
+Evaluating: rahulsb_P1Ph1_code

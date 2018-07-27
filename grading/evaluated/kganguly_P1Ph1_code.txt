@@ -1,0 +1,54 @@
+Now evaluating: kganguly_P1Ph1_code.zip
+
+Loading maps...
+
+Now testing collision
+No-Collision Test Passed
+Now testing collision
+Collision Test Passed
+
+Now testing Map 0
+Now testing Dijkstra
+Dijkstra Time: 6.531772
+Dijkstra NumNodes: 67470.000000
+Dijkstra Passed
+
+Now testing A-Star
+A-Star Time: 7.874324
+A-Star NumNodes: 63422.000000
+A-Star Passed
+
+
+Now testing Empty Map
+Dijkstra Time: 0.301442
+Dijkstra NumNodes: 3339.000000
+Dijkstra Passed
+
+Now testing A-Star
+A-Star Time: 0.723522
+A-Star NumNodes: 4537.000000
+A-Star Passed
+
+
+Now testing Map 3 Input 1
+Dijkstra Time: 2.005558
+Dijkstra NumNodes: 15127.000000
+Dijkstra Passed
+
+Now testing A-Star
+A-Star Time: 1.634085
+A-Star NumNodes: 11094.000000
+A-Star Passed
+
+
+Now testing Map 3 Input 2
+Dijkstra Time: 17.239464
+Dijkstra NumNodes: 154012.000000
+Dijkstra Passed
+
+Now testing A-Star
+A-Star Time: 3.102064
+A-Star NumNodes: 27379.000000
+A-Star Passed
+
+

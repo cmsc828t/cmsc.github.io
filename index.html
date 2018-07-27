@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CMSC 828T</title>
+  <link href="resources/css/bootstrap.min.css?<?php echo rand(1,7); ?>" rel="stylesheet"/>
+  <link href="resources/css/main.css?<?php echo rand(1,7); ?>" rel="stylesheet"/>
+</head>
+
+<body>
+  <div class="container-fluid"> <!-- MAIN BODY CONTAINER -->
+    <div class="row"> <!-- NAVBAR ROW -->
+      <div class="col-lg-12"> <!-- NAVBAR COLUMN -->
+        <nav class="navbar navbar-default"> <!-- NAVBAR  -->
+          <div class="container-fluid">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main_nav">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <div class="navbar-header">
+              <a class="navbar-brand">
+                <div class="Logo">
+                  <img src="resources/img/DL2.png" height="40px"/>
+                  <div class="title_holder">
+                    <span id="title_span">CMSC 828T</span>
+                    <span id="title2_span">Vision, Planning and Control in Aerial Robotics</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="main_nav">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a class="menu_item">Homepage</a></li>
+                <li><a class="menu_item">Syllabus<span class="badge"></span></a></li>
+                <li><a class="menu_item">Assignments</a></li>
+                <li><a class="menu_item">Submit</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>  <!-- NAVBAR  -->
+      </div>  <!-- NAVBAR COLUMN -->
+    </div>  <!-- NAVBAR ROW -->
+    <div class="row"> <!-- BODY ROW -->
+      <div id="main_body" class="col-lg-12"> <!-- BODY COLUMN -->
+        <div id="PageContainer" class="container-fluid"></div>
+      </div>  <!-- BODY ROW -->
+    </div>  <!-- BODY ROW -->
+  </div>   <!-- MAIN BODY CONTAINER -->
+  <script type="text/javascript" src="resources/js/jquery.min.js?<?php echo rand(1,7); ?>"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+  <script type="text/javascript" src="resources/js/main.js?<?php echo rand(1,7); ?>"></script>
+</body>
+</html>

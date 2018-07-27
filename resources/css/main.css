@@ -1,0 +1,252 @@
+@charset "UTF-8";
+
+/***********   GLOBAL RULES   ***********/
+body, html{
+	height: 100vh;
+	max-width: 80vw;
+	background-color: #FFF;
+	font-family: "Roboto", 'Roboto Thin', sans-serif;
+	font-weight: 105;
+	font-style: normal;
+	font-size: 15px;
+	color:#000;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin: 0 auto !important;
+}
+
+hr{
+	width: 100%;
+}
+
+/***********   PAGE CONTAINERS   ***********/
+
+#main_body{
+	min-height:80vh;
+}
+
+#PageContainer{
+	width: 100%;
+	min-height: inherit;
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding-left: 10px;
+	padding-right: : 10px;
+	border-style: solid;
+	border-color: #000;
+	border-width: 2px;
+}
+
+#landing_page{
+	text-align: center;
+	height: 100%;
+	font-family: "Roboto", 'Roboto Thin', sans-serif;
+	font-weight: 105;
+	font-style: normal;
+	font-size: 20px;
+	background: red; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left top, #999, #DDD); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, #999, #DDD); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, #999, #DDD); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #999, #DDD); /* Standard syntax */
+}
+
+div#title_holder{
+	display: flex;
+	flex-direction: column;
+}
+
+span#title_span{
+	font-weight: 180;
+	font-style: normal;
+	padding-left: 4px;
+	padding-right: 10px;
+	font-size: 24px;
+}
+span#title2_span{
+	display: block;
+	font-weight: 100;
+	font-style: normal;
+	padding-left: 4px;
+	padding-right: 10px;
+	font-size: 14px;
+}
+
+.override{
+	font-family: "Roboto", 'Roboto Thin', sans-serif;
+	font-weight: 180;
+	font-style: normal;
+	font-size: 20px;
+	color:#000;	
+}
+
+div#submission_comments{
+	max-height: 25%;
+	overflow-y: auto;
+}
+
+/***********   NAVBAR   ***********/
+
+.navbar{
+	margin-top: 10px;
+}
+.navbar-brand {
+	padding: 5px;
+}
+.navbar-brand>img {
+	height: 100%;
+	padding: 20px;
+	width: auto;
+}
+
+.nav li:hover{
+	background:#DDD;
+}
+.nav>li{
+	display: inline-block;
+}
+
+.nav{
+	min-height:3vh;
+	white-space: nowrap;
+	display: inline-block;
+	font-size: 13px;
+	font-style: bold;
+}
+
+/*Logo rules*/
+.Logo {
+	font-family: 'Roboto', 'Roboto Thin', sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	font-size: 35px;
+	color:#000;
+	display: flex;
+	flex-direction: row;
+}
+
+span.badge{
+	margin-left: 5px;
+}
+
+/***********   TABLES   ***********/
+
+.syllabus-table, .homework-table{
+	text-align: center;
+}
+
+th, td > .syllabus-table{
+	text-align: inherit;
+	width: calc(100% / 4);
+}
+
+th, td > .homework-table{
+	text-align: inherit;
+	width: calc(100% / 4);
+}
+
+/***********   INSTRUCTOR CARDS   ***********/
+
+.card_row{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+@media (max-width: 768px) {
+	.card_row{
+		display:flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+	}
+}
+
+img.meet{
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	/*max-width: 320px;*/
+	width: 240px;
+	margin: auto;
+	text-align: center;
+	margin: 3px;
+}
+
+.card_title {
+	color: grey;
+	font-size: 12px;
+}
+
+button {
+	border: none;
+	outline: 0;
+	padding: 5px;
+	color: white;
+	background-color: #AAA;
+	text-align: center;
+	cursor: pointer;
+	width: auto;
+	font-size: 18px;
+}
+
+.card_email{
+	color: #777;
+	font-size: 12px;	
+}
+
+a.meet {
+	text-decoration: none;
+	font-size: 22px;
+	color: black;
+}
+
+button:hover, a:hover {
+	opacity: 0.7;
+}
+
+/***********   SUBMIT PAGE   ***********/
+[class$="-panel"]{
+	margin-top: 3vh;
+	border-color: rgb(0,0,0);
+	border-style: solid;
+}
+
+.body-panel{
+	min-height: 95vh;
+	min-width: 20vw;
+}
+
+.control-panel{
+	border-width: 3px 3px 3px 0px;
+	min-height: 40vh;
+	min-width: 10vw;
+}
+
+button>a{
+	text-decoration: none;
+	color:black;
+}
+
+/*Submission table rules*/
+.submission-table{
+	text-align: center;
+}
+
+th, td > .submission-table{
+	text-align: inherit;
+	width: calc(100% / 3);
+}
+
+.spacer {
+	margin-top: 2%;
+}
+
+.disabled {
+	pointer-events:none;
+	opacity:0.6;        
+}

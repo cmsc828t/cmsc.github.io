@@ -1,0 +1,8 @@
+Now evaluating: mavera3_P1Ph1_code.zip
+
+Loading maps...
+
+Now testing collision
+No-Collision Test Passed
+Now testing collision
+Collision Test Failed

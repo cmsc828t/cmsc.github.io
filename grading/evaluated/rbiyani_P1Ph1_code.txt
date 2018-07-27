@@ -1,0 +1,23 @@
+Now evaluating: rbiyani_P1Ph1_code.zip
+
+Loading maps...
+
+Now testing collision
+No-Collision Test Passed
+Now testing collision
+Collision Test Passed
+
+Now testing Map 0
+Now testing Dijkstra
+Dijkstra Time: 7.399906
+Dijkstra NumNodes: 60848.000000
+Dijkstra Passed
+
+Now testing A-Star
+A-Star Time: 7.997789
+A-Star NumNodes: 56166.000000
+A-Star Passed
+
+
+Now testing Empty Map
+Dijkstra Test Failed

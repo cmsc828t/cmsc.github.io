@@ -1,0 +1,2 @@
+All tests successfully passed.
+Final scores out of 200 points.

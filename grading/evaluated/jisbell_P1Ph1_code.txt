@@ -1,0 +1,34 @@
+Now evaluating: jisbell_P1Ph1_code.zip
+
+Loading maps...
+
+Now testing collision
+No-Collision Test Passed
+Now testing collision
+Collision Test Passed
+
+Now testing Map 0
+Now testing Dijkstra
+Dijkstra Time: 7.141770
+Dijkstra NumNodes: 91052.000000
+Dijkstra Passed
+
+Now testing A-Star
+A-Star Time: 1.775034
+A-Star NumNodes: 273.000000
+A-Star Passed
+
+
+Now testing Empty Map
+Dijkstra Time: 1.093166
+Dijkstra NumNodes: 2713.000000
+Dijkstra Passed
+
+Now testing A-Star
+A-Star Time: 0.060105
+A-Star NumNodes: 33.000000
+A-Star Passed
+
+
+Now testing Map 3 Input 1
+Dijkstra Test Code Error

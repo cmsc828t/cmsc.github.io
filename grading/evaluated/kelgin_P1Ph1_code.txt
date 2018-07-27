@@ -1,0 +1,34 @@
+Now evaluating: kelgin_P1Ph1_code.zip
+
+Loading maps...
+
+Now testing collision
+No-Collision Test Passed
+Now testing collision
+Collision Test Passed
+
+Now testing Map 0
+Now testing Dijkstra
+Dijkstra Time: 13.968290
+Dijkstra NumNodes: 61137.000000
+Dijkstra Passed
+
+Now testing A-Star
+A-Star Time: 12.085411
+A-Star NumNodes: 39455.000000
+A-Star Passed
+
+
+Now testing Empty Map
+Dijkstra Time: 0.505181
+Dijkstra NumNodes: 2630.000000
+Dijkstra Passed
+
+Now testing A-Star
+A-Star Time: 0.130959
+A-Star NumNodes: 241.000000
+A-Star Passed
+
+
+Now testing Map 3 Input 1
+Dijkstra Test Code Error

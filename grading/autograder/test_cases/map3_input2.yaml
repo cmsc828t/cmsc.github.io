@@ -1,0 +1,13 @@
+---
+load_map_params:
+  - x: 0.1
+  - y: 0.2
+  - z: 0.3
+test_start:
+  - x: 2.0
+  - y: 8.0
+  - z: 7.5
+test_goal:
+  - x: 16.0
+  - y: 2.0
+  - z: 1.5

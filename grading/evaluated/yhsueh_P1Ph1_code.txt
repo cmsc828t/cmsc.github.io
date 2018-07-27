@@ -1,0 +1,12 @@
+Now evaluating: yhsueh_P1Ph1_code.zip
+
+Loading maps...
+
+Now testing collision
+No-Collision Test Passed
+Now testing collision
+Collision Test Passed
+
+Now testing Map 0
+Now testing Dijkstra
+Dijkstra Test Failed
