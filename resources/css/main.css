@@ -7,9 +7,9 @@ body, html{
 	background-color: #FFF;
 /*	font-family: "Roboto", 'Roboto Thin', sans-serif; */
 	font-family: "Roboto", 'Roboto Medium', sans-serif;
-	font-weight: 350;
+	font-weight: 450;
 	font-style: normal;
-	font-size: 16px;
+	font-size: 14px;
 	color:#000;
 	overflow-x: hidden;
 	overflow-y: hidden;
@@ -42,9 +42,9 @@ hr{
 	text-align: center;
 	height: 100%;
 	font-family: "Roboto", 'Roboto Medium', sans-serif;
-	font-weight: 300;
+	font-weight: 400;
 	font-style: normal;
-	font-size: 22px;
+	font-size: 20px;
 	background: red; /* For browsers that do not support gradients */
 	background: -webkit-linear-gradient(left top, #999, #DDD); /* For Safari 5.1 to 6.0 */
 	background: -o-linear-gradient(bottom right, #999, #DDD); /* For Opera 11.1 to 12.0 */
@@ -58,24 +58,24 @@ div#title_holder{
 }
 
 span#title_span{
-	font-weight: 300;
+	font-weight: 400;
 	font-style: normal;
 	padding-left: 4px;
 	padding-right: 10px;
-	font-size: 26px;
+	font-size: 24px;
 }
 span#title2_span{
 	display: block;
-	font-weight: 160;
+	font-weight: 400;
 	font-style: normal;
 	padding-left: 4px;
 	padding-right: 10px;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 .override{
 	font-family: "Roboto", 'Roboto Medium', sans-serif;
-	font-weight: 200;
+	font-weight: 400;
 	font-style: normal;
 	font-size: 22px;
 	color:#000;	
@@ -118,7 +118,7 @@ div#submission_comments{
 /*Logo rules*/
 .Logo {
 	font-family: 'Roboto', 'Roboto Medium', sans-serif;
-	font-weight: 160;
+	font-weight: 320;
 	font-style: normal;
 	font-size: 35px;
 	color:#000;
