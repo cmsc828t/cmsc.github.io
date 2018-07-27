@@ -7,9 +7,9 @@ body, html{
 	background-color: #FFF;
 /*	font-family: "Roboto", 'Roboto Thin', sans-serif; */
 	font-family: "Roboto", 'Roboto', sans-serif;
-	font-weight: 105;
+	font-weight: 205;
 	font-style: normal;
-	font-size: 16px;
+	font-size: 18px;
 	color:#000;
 	overflow-x: hidden;
 	overflow-y: hidden;
@@ -42,7 +42,7 @@ hr{
 	text-align: center;
 	height: 100%;
 	font-family: "Roboto", 'Roboto', sans-serif;
-	font-weight: 105;
+	font-weight: 205;
 	font-style: normal;
 	font-size: 22px;
 	background: red; /* For browsers that do not support gradients */
@@ -118,7 +118,7 @@ div#submission_comments{
 /*Logo rules*/
 .Logo {
 	font-family: 'Roboto', 'Roboto', sans-serif;
-	font-weight: 120;
+	font-weight: 160;
 	font-style: normal;
 	font-size: 35px;
 	color:#000;
