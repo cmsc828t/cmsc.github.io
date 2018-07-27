@@ -42,7 +42,7 @@ hr{
 	text-align: center;
 	height: 100%;
 	font-family: "Roboto", 'Roboto Medium', sans-serif;
-	font-weight: 400;
+	font-weight: 350;
 	font-style: normal;
 	font-size: 20px;
 	background: red; /* For browsers that do not support gradients */
@@ -58,7 +58,7 @@ div#title_holder{
 }
 
 span#title_span{
-	font-weight: 400;
+	font-weight: 350;
 	font-style: normal;
 	padding-left: 4px;
 	padding-right: 10px;
@@ -66,7 +66,7 @@ span#title_span{
 }
 span#title2_span{
 	display: block;
-	font-weight: 400;
+	font-weight: 350;
 	font-style: normal;
 	padding-left: 4px;
 	padding-right: 10px;
@@ -75,7 +75,7 @@ span#title2_span{
 
 .override{
 	font-family: "Roboto", 'Roboto Medium', sans-serif;
-	font-weight: 400;
+	font-weight: 350;
 	font-style: normal;
 	font-size: 22px;
 	color:#000;	
